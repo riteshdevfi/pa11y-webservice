@@ -46,7 +46,7 @@
     "test": "npm run test:unit && npm run test:integration",
     "test:unit": "mocha test/unit --exit --recursive",
     "test:integration": "mocha test/integration --exit --timeout 20000 --slow 4000",
-    "postinstall": "npx puppeteer browsers install"
+    "postinstall": "npx puppeteer browsers install --no-sandbox"
   },
   "files": [
     "*.js",
