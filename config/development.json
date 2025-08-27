@@ -3,7 +3,11 @@
 	"host": "0.0.0.0",
 	"port": 5000,
 	"cron": "0 30 0 * * *",
-	"chromeLaunchConfig": {"args": [
-			"--no-sandbox"
-		]}
+	"chromeLaunchConfig": {
+		"args": [
+		"--no-sandbox",
+		"--disable-setuid-sandbox"
+		],
+		"executablePath": "/opt/render/.cache/puppeteer/chrome/linux-123.0.6312.105/chrome-linux64/chrome"
+	}
 }
