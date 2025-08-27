@@ -1,0 +1,7 @@
+{
+	"database": "mongodb+srv://Devfi:Devfi@cluster0.zl8gnau.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+	"host": "0.0.0.0",
+	"port": 5000,
+	"cron": "0 30 0 * * *",
+	"chromeLaunchConfig": {}
+}
