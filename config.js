@@ -34,7 +34,9 @@ if (fs.existsSync(jsonPath)) {
 		host: env('HOST', '0.0.0.0'),
 		port: Number(env('PORT', '3000')),
 		cron: env('CRON', false),
-		chromeLaunchConfig: {},
+		chromeLaunchConfig: {"args": [
+                          "--no-sandbox"
+                  ]},
 		numWorkers: Number(env('NUM_WORKERS', '2'))
 	};
 }
