@@ -2,7 +2,8 @@
   "name": "pa11y-webservice",
   "version": "3.2.1",
   "engines": {
-    "node": ">=18"
+    "node": ">=18",
+    "npm": ">=8"
   },
   "description": "Pa11y Webservice provides scheduled accessibility reports for multiple URLs",
   "keywords": [
