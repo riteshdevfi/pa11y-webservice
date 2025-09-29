@@ -1,5 +1,5 @@
 {
-  "database": "mongodb+srv://Devfi:Devfi@ac-qzebtje-shard-00-02.zl8gnau.mongodb.net:27017,ac-qzebtje-shard-00-00.zl8gnau.mongodb.net:27017,ac-qzebtje-shard-00-01.zl8gnau.mongodb.net:27017/?authSource=admin&replicaSet=atlas-brjf4q-shard-0&retryWrites=true&w=majority&appName=Cluster0&ssl=true",
+  "database": "mongodb+srv://Devfi:Devfi@cluster0.zl8gnau.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
   "host": "0.0.0.0",
   "port": 3000,
   "cron": "0 30 0 * * *",
